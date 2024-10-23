@@ -1,8 +1,5 @@
-
-
 /* Style
 ----------------------------------------------------------------------------- */
-
 
 /* Section cover
 ----------------------------------------------------------------------------- */
@@ -13,7 +10,8 @@
   min-height: 100vh;
   transform: translateY(-15vh);
   opacity: 0;
-  transition: transform 1.5s cubic-bezier(0.33, 0, 0.2, 1), opacity 0.5s cubic-bezier(0.33, 0, 0.2, 1) 0.25s;
+  transition: transform 1.5s cubic-bezier(0.33, 0, 0.2, 1),
+    opacity 0.5s cubic-bezier(0.33, 0, 0.2, 1) 0.25s;
   pointer-events: none;
   display: none;
 }
@@ -71,7 +69,6 @@ body.cover--is--visible .app-aside .options .option {
   opacity: 0;
 }
 
-
 /* App header
 ----------------------------------------------------------------------------- */
 
@@ -103,43 +100,91 @@ body.cover--is--visible .app-aside .options .option {
   font-size: var(--font--size-medium);
   line-height: 1;
 }
-.app-header .brand h3 span:nth-child(n+2) {
+.app-header .brand h3 span:nth-child(n + 2) {
   margin-left: var(--font--margin-left);
   margin-left: -0.035em;
   opacity: 0;
   transition: margin-left 0.3s ease-in, opacity 0.3s ease-in;
 }
-.app-header .brand:hover h3 span:nth-child(n+2) {
+.app-header .brand:hover h3 span:nth-child(n + 2) {
   margin-left: 0;
   opacity: 1;
   transition: margin-left 0.3s ease-out, opacity 0.3s ease-out;
 }
 
-.app-header .brand:hover h3 span:nth-child(2)  { transition-delay: 0.00s; }
-.app-header .brand:hover h3 span:nth-child(3)  { transition-delay: 0.01s; }
-.app-header .brand:hover h3 span:nth-child(4)  { transition-delay: 0.02s; }
-.app-header .brand:hover h3 span:nth-child(5)  { transition-delay: 0.03s; }
-.app-header .brand:hover h3 span:nth-child(6)  { transition-delay: 0.04s; }
-.app-header .brand:hover h3 span:nth-child(7)  { transition-delay: 0.05s; }
-.app-header .brand:hover h3 span:nth-child(8)  { transition-delay: 0.06s; }
-.app-header .brand:hover h3 span:nth-child(9)  { transition-delay: 0.07s; }
-.app-header .brand:hover h3 span:nth-child(10) { transition-delay: 0.08s; }
-.app-header .brand:hover h3 span:nth-child(11) { transition-delay: 0.09s; }
-.app-header .brand:hover h3 span:nth-child(12) { transition-delay: 0.10s; }
-.app-header .brand:hover h3 span:nth-child(13) { transition-delay: 0.11s; }
+.app-header .brand:hover h3 span:nth-child(2) {
+  transition-delay: 0s;
+}
+.app-header .brand:hover h3 span:nth-child(3) {
+  transition-delay: 0.01s;
+}
+.app-header .brand:hover h3 span:nth-child(4) {
+  transition-delay: 0.02s;
+}
+.app-header .brand:hover h3 span:nth-child(5) {
+  transition-delay: 0.03s;
+}
+.app-header .brand:hover h3 span:nth-child(6) {
+  transition-delay: 0.04s;
+}
+.app-header .brand:hover h3 span:nth-child(7) {
+  transition-delay: 0.05s;
+}
+.app-header .brand:hover h3 span:nth-child(8) {
+  transition-delay: 0.06s;
+}
+.app-header .brand:hover h3 span:nth-child(9) {
+  transition-delay: 0.07s;
+}
+.app-header .brand:hover h3 span:nth-child(10) {
+  transition-delay: 0.08s;
+}
+.app-header .brand:hover h3 span:nth-child(11) {
+  transition-delay: 0.09s;
+}
+.app-header .brand:hover h3 span:nth-child(12) {
+  transition-delay: 0.1s;
+}
+.app-header .brand:hover h3 span:nth-child(13) {
+  transition-delay: 0.11s;
+}
 
-.app-header .brand h3 span:nth-child(2)  { transition-delay: 0.11s; }
-.app-header .brand h3 span:nth-child(3)  { transition-delay: 0.10s; }
-.app-header .brand h3 span:nth-child(4)  { transition-delay: 0.09s; }
-.app-header .brand h3 span:nth-child(5)  { transition-delay: 0.08s; }
-.app-header .brand h3 span:nth-child(6)  { transition-delay: 0.07s; }
-.app-header .brand h3 span:nth-child(7)  { transition-delay: 0.06s; }
-.app-header .brand h3 span:nth-child(8)  { transition-delay: 0.05s; }
-.app-header .brand h3 span:nth-child(9)  { transition-delay: 0.04s; }
-.app-header .brand h3 span:nth-child(10) { transition-delay: 0.03s; }
-.app-header .brand h3 span:nth-child(11) { transition-delay: 0.02s; }
-.app-header .brand h3 span:nth-child(12) { transition-delay: 0.01s; }
-.app-header .brand h3 span:nth-child(13) { transition-delay: 0.00s; }
+.app-header .brand h3 span:nth-child(2) {
+  transition-delay: 0.11s;
+}
+.app-header .brand h3 span:nth-child(3) {
+  transition-delay: 0.1s;
+}
+.app-header .brand h3 span:nth-child(4) {
+  transition-delay: 0.09s;
+}
+.app-header .brand h3 span:nth-child(5) {
+  transition-delay: 0.08s;
+}
+.app-header .brand h3 span:nth-child(6) {
+  transition-delay: 0.07s;
+}
+.app-header .brand h3 span:nth-child(7) {
+  transition-delay: 0.06s;
+}
+.app-header .brand h3 span:nth-child(8) {
+  transition-delay: 0.05s;
+}
+.app-header .brand h3 span:nth-child(9) {
+  transition-delay: 0.04s;
+}
+.app-header .brand h3 span:nth-child(10) {
+  transition-delay: 0.03s;
+}
+.app-header .brand h3 span:nth-child(11) {
+  transition-delay: 0.02s;
+}
+.app-header .brand h3 span:nth-child(12) {
+  transition-delay: 0.01s;
+}
+.app-header .brand h3 span:nth-child(13) {
+  transition-delay: 0s;
+}
 
 .app-header .actions {
   display: flex;
@@ -228,23 +273,30 @@ body.cover--is--visible .app-aside .options .option {
   transform: translateY(4px);
   transition: transform 0.1s ease-out 0.1s;
 }
-body.mobile-nav--is--visible .app-header .navigation .line:nth-child(1)  {
+body.mobile-nav--is--visible .app-header .navigation .line:nth-child(1) {
   transform: rotate(45deg);
   transition: transform 0.1s ease-out 0.1s;
 }
-body.mobile-nav--is--visible .app-header .navigation .line:nth-child(2)  {
+body.mobile-nav--is--visible .app-header .navigation .line:nth-child(2) {
   transform: rotate(-45deg);
   transition: transform 0.1s ease-out 0.1s;
 }
-body.mobile-nav--is--visible .app-header .navigation .line:nth-child(1) .content  {
+body.mobile-nav--is--visible
+  .app-header
+  .navigation
+  .line:nth-child(1)
+  .content {
   transform: translateY(0);
   transition: transform 0.1s ease-in;
 }
-body.mobile-nav--is--visible .app-header .navigation .line:nth-child(2) .content  {
+body.mobile-nav--is--visible
+  .app-header
+  .navigation
+  .line:nth-child(2)
+  .content {
   transform: translateY(0);
   transition: transform 0.1s ease-in;
 }
-
 
 /* App nav
 ----------------------------------------------------------------------------- */
@@ -272,7 +324,6 @@ body.mobile-nav--is--visible .app-header .navigation .line:nth-child(2) .content
 .app-nav .item.is--active {
   color: var(--color--foreground--100);
 }
-
 
 /* App aside
 ----------------------------------------------------------------------------- */
@@ -406,91 +457,292 @@ body.theme-slider--is--visible .app-aside .option.theme .dot {
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-body.theme-slider--is--visible.theme--16 .app-aside .option.theme .icon-container { bottom: 320px; }
-body.theme-slider--is--visible.theme--15 .app-aside .option.theme .icon-container { bottom: 300px; }
-body.theme-slider--is--visible.theme--14 .app-aside .option.theme .icon-container { bottom: 280px; }
-body.theme-slider--is--visible.theme--13 .app-aside .option.theme .icon-container { bottom: 260px; }
-body.theme-slider--is--visible.theme--12 .app-aside .option.theme .icon-container { bottom: 240px; }
-body.theme-slider--is--visible.theme--11 .app-aside .option.theme .icon-container { bottom: 220px; }
-body.theme-slider--is--visible.theme--10 .app-aside .option.theme .icon-container { bottom: 200px; }
-body.theme-slider--is--visible.theme--09 .app-aside .option.theme .icon-container { bottom: 180px; }
-body.theme-slider--is--visible.theme--08 .app-aside .option.theme .icon-container { bottom: 160px; }
-body.theme-slider--is--visible.theme--07 .app-aside .option.theme .icon-container { bottom: 140px; }
-body.theme-slider--is--visible.theme--06 .app-aside .option.theme .icon-container { bottom: 120px; }
-body.theme-slider--is--visible.theme--05 .app-aside .option.theme .icon-container { bottom: 100px; }
-body.theme-slider--is--visible.theme--04 .app-aside .option.theme .icon-container { bottom: 80px; }
-body.theme-slider--is--visible.theme--03 .app-aside .option.theme .icon-container { bottom: 60px; }
-body.theme-slider--is--visible.theme--02 .app-aside .option.theme .icon-container { bottom: 40px; }
-body.theme-slider--is--visible.theme--01 .app-aside .option.theme .icon-container { bottom: 20px; }
-body.theme-slider--is--visible.theme--00 .app-aside .option.theme .icon-container { bottom: 0; }
+body.theme-slider--is--visible.theme--16
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 320px;
+}
+body.theme-slider--is--visible.theme--15
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 300px;
+}
+body.theme-slider--is--visible.theme--14
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 280px;
+}
+body.theme-slider--is--visible.theme--13
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 260px;
+}
+body.theme-slider--is--visible.theme--12
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 240px;
+}
+body.theme-slider--is--visible.theme--11
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 220px;
+}
+body.theme-slider--is--visible.theme--10
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 200px;
+}
+body.theme-slider--is--visible.theme--09
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 180px;
+}
+body.theme-slider--is--visible.theme--08
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 160px;
+}
+body.theme-slider--is--visible.theme--07
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 140px;
+}
+body.theme-slider--is--visible.theme--06
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 120px;
+}
+body.theme-slider--is--visible.theme--05
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 100px;
+}
+body.theme-slider--is--visible.theme--04
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 80px;
+}
+body.theme-slider--is--visible.theme--03
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 60px;
+}
+body.theme-slider--is--visible.theme--02
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 40px;
+}
+body.theme-slider--is--visible.theme--01
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 20px;
+}
+body.theme-slider--is--visible.theme--00
+  .app-aside
+  .option.theme
+  .icon-container {
+  bottom: 0;
+}
 
-body.theme--16 .app-aside .option.theme .icon-container { transition-delay: 0.00s; }
-body.theme--15 .app-aside .option.theme .icon-container { transition-delay: 0.02s; }
-body.theme--14 .app-aside .option.theme .icon-container { transition-delay: 0.04s; }
-body.theme--13 .app-aside .option.theme .icon-container { transition-delay: 0.06s; }
-body.theme--12 .app-aside .option.theme .icon-container { transition-delay: 0.08s; }
-body.theme--11 .app-aside .option.theme .icon-container { transition-delay: 0.10s; }
-body.theme--10 .app-aside .option.theme .icon-container { transition-delay: 0.12s; }
-body.theme--09 .app-aside .option.theme .icon-container { transition-delay: 0.14s; }
-body.theme--08 .app-aside .option.theme .icon-container { transition-delay: 0.16s; }
-body.theme--07 .app-aside .option.theme .icon-container { transition-delay: 0.18s; }
-body.theme--06 .app-aside .option.theme .icon-container { transition-delay: 0.20s; }
-body.theme--05 .app-aside .option.theme .icon-container { transition-delay: 0.22s; }
-body.theme--04 .app-aside .option.theme .icon-container { transition-delay: 0.24s; }
-body.theme--03 .app-aside .option.theme .icon-container { transition-delay: 0.26s; }
-body.theme--02 .app-aside .option.theme .icon-container { transition-delay: 0.28s; }
-body.theme--01 .app-aside .option.theme .icon-container { transition-delay: 0.30s; }
-body.theme--00 .app-aside .option.theme .icon-container { transition-delay: 0.32s; }
+body.theme--16 .app-aside .option.theme .icon-container {
+  transition-delay: 0s;
+}
+body.theme--15 .app-aside .option.theme .icon-container {
+  transition-delay: 0.02s;
+}
+body.theme--14 .app-aside .option.theme .icon-container {
+  transition-delay: 0.04s;
+}
+body.theme--13 .app-aside .option.theme .icon-container {
+  transition-delay: 0.06s;
+}
+body.theme--12 .app-aside .option.theme .icon-container {
+  transition-delay: 0.08s;
+}
+body.theme--11 .app-aside .option.theme .icon-container {
+  transition-delay: 0.1s;
+}
+body.theme--10 .app-aside .option.theme .icon-container {
+  transition-delay: 0.12s;
+}
+body.theme--09 .app-aside .option.theme .icon-container {
+  transition-delay: 0.14s;
+}
+body.theme--08 .app-aside .option.theme .icon-container {
+  transition-delay: 0.16s;
+}
+body.theme--07 .app-aside .option.theme .icon-container {
+  transition-delay: 0.18s;
+}
+body.theme--06 .app-aside .option.theme .icon-container {
+  transition-delay: 0.2s;
+}
+body.theme--05 .app-aside .option.theme .icon-container {
+  transition-delay: 0.22s;
+}
+body.theme--04 .app-aside .option.theme .icon-container {
+  transition-delay: 0.24s;
+}
+body.theme--03 .app-aside .option.theme .icon-container {
+  transition-delay: 0.26s;
+}
+body.theme--02 .app-aside .option.theme .icon-container {
+  transition-delay: 0.28s;
+}
+body.theme--01 .app-aside .option.theme .icon-container {
+  transition-delay: 0.3s;
+}
+body.theme--00 .app-aside .option.theme .icon-container {
+  transition-delay: 0.32s;
+}
 
-.app-aside .option.theme .dot:nth-child(17) { background-color: var(--color--foreground--100); transition-delay: 0.00s; }
-.app-aside .option.theme .dot:nth-child(16) { background-color: var(--color--foreground--25);  transition-delay: 0.02s; }
-.app-aside .option.theme .dot:nth-child(15) { background-color: var(--color--foreground--25);  transition-delay: 0.04s; }
-.app-aside .option.theme .dot:nth-child(14) { background-color: var(--color--foreground--25);  transition-delay: 0.06s; }
-.app-aside .option.theme .dot:nth-child(13) { background-color: var(--color--foreground--100); transition-delay: 0.08s; }
-.app-aside .option.theme .dot:nth-child(12) { background-color: var(--color--foreground--25);  transition-delay: 0.10s; }
-.app-aside .option.theme .dot:nth-child(11) { background-color: var(--color--foreground--25);  transition-delay: 0.12s; }
-.app-aside .option.theme .dot:nth-child(10) { background-color: var(--color--foreground--25);  transition-delay: 0.14s; }
-.app-aside .option.theme .dot:nth-child(9)  { background-color: var(--color--foreground--100); transition-delay: 0.16s; }
-.app-aside .option.theme .dot:nth-child(8)  { background-color: var(--color--foreground--25);  transition-delay: 0.18s; }
-.app-aside .option.theme .dot:nth-child(7)  { background-color: var(--color--foreground--25);  transition-delay: 0.20s; }
-.app-aside .option.theme .dot:nth-child(6)  { background-color: var(--color--foreground--25);  transition-delay: 0.22s; }
-.app-aside .option.theme .dot:nth-child(5)  { background-color: var(--color--foreground--100); transition-delay: 0.24s; }
-.app-aside .option.theme .dot:nth-child(4)  { background-color: var(--color--foreground--25);  transition-delay: 0.26s; }
-.app-aside .option.theme .dot:nth-child(3)  { background-color: var(--color--foreground--25);  transition-delay: 0.28s; }
-.app-aside .option.theme .dot:nth-child(2)  { background-color: var(--color--foreground--25);  transition-delay: 0.30s; }
-.app-aside .option.theme .dot:nth-child(1)  { background-color: var(--color--foreground--100); transition-delay: 0.32s; }
+.app-aside .option.theme .dot:nth-child(17) {
+  background-color: var(--color--foreground--100);
+  transition-delay: 0s;
+}
+.app-aside .option.theme .dot:nth-child(16) {
+  background-color: var(--color--foreground--25);
+  transition-delay: 0.02s;
+}
+.app-aside .option.theme .dot:nth-child(15) {
+  background-color: var(--color--foreground--25);
+  transition-delay: 0.04s;
+}
+.app-aside .option.theme .dot:nth-child(14) {
+  background-color: var(--color--foreground--25);
+  transition-delay: 0.06s;
+}
+.app-aside .option.theme .dot:nth-child(13) {
+  background-color: var(--color--foreground--100);
+  transition-delay: 0.08s;
+}
+.app-aside .option.theme .dot:nth-child(12) {
+  background-color: var(--color--foreground--25);
+  transition-delay: 0.1s;
+}
+.app-aside .option.theme .dot:nth-child(11) {
+  background-color: var(--color--foreground--25);
+  transition-delay: 0.12s;
+}
+.app-aside .option.theme .dot:nth-child(10) {
+  background-color: var(--color--foreground--25);
+  transition-delay: 0.14s;
+}
+.app-aside .option.theme .dot:nth-child(9) {
+  background-color: var(--color--foreground--100);
+  transition-delay: 0.16s;
+}
+.app-aside .option.theme .dot:nth-child(8) {
+  background-color: var(--color--foreground--25);
+  transition-delay: 0.18s;
+}
+.app-aside .option.theme .dot:nth-child(7) {
+  background-color: var(--color--foreground--25);
+  transition-delay: 0.2s;
+}
+.app-aside .option.theme .dot:nth-child(6) {
+  background-color: var(--color--foreground--25);
+  transition-delay: 0.22s;
+}
+.app-aside .option.theme .dot:nth-child(5) {
+  background-color: var(--color--foreground--100);
+  transition-delay: 0.24s;
+}
+.app-aside .option.theme .dot:nth-child(4) {
+  background-color: var(--color--foreground--25);
+  transition-delay: 0.26s;
+}
+.app-aside .option.theme .dot:nth-child(3) {
+  background-color: var(--color--foreground--25);
+  transition-delay: 0.28s;
+}
+.app-aside .option.theme .dot:nth-child(2) {
+  background-color: var(--color--foreground--25);
+  transition-delay: 0.3s;
+}
+.app-aside .option.theme .dot:nth-child(1) {
+  background-color: var(--color--foreground--100);
+  transition-delay: 0.32s;
+}
 
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(17) { transition-delay: 0.32s; }
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(16) { transition-delay: 0.30s; }
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(15) { transition-delay: 0.28s; }
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(14) { transition-delay: 0.26s; }
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(13) { transition-delay: 0.24s; }
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(12) { transition-delay: 0.22s; }
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(11) { transition-delay: 0.20s; }
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(10) { transition-delay: 0.18s; }
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(9)  { transition-delay: 0.16s; }
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(8)  { transition-delay: 0.14s; }
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(7)  { transition-delay: 0.12s; }
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(6)  { transition-delay: 0.10s; }
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(5)  { transition-delay: 0.08s; }
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(4)  { transition-delay: 0.06s; }
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(3)  { transition-delay: 0.04s; }
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(2)  { transition-delay: 0.02s; }
-body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { transition-delay: 0.00s; }
-
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(17) {
+  transition-delay: 0.32s;
+}
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(16) {
+  transition-delay: 0.3s;
+}
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(15) {
+  transition-delay: 0.28s;
+}
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(14) {
+  transition-delay: 0.26s;
+}
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(13) {
+  transition-delay: 0.24s;
+}
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(12) {
+  transition-delay: 0.22s;
+}
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(11) {
+  transition-delay: 0.2s;
+}
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(10) {
+  transition-delay: 0.18s;
+}
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(9) {
+  transition-delay: 0.16s;
+}
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(8) {
+  transition-delay: 0.14s;
+}
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(7) {
+  transition-delay: 0.12s;
+}
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(6) {
+  transition-delay: 0.1s;
+}
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(5) {
+  transition-delay: 0.08s;
+}
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(4) {
+  transition-delay: 0.06s;
+}
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(3) {
+  transition-delay: 0.04s;
+}
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(2) {
+  transition-delay: 0.02s;
+}
+body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1) {
+  transition-delay: 0s;
+}
 
 /* App main
 ----------------------------------------------------------------------------- */
 
 .app-main a {
   border-bottom: 1px solid var(--color--foreground--25);
-
 }
 .app-main a:hover {
   border-bottom-color: var(--color--foreground--100);
   cursor: pointer;
 }
-
 
 /* Sections
 ----------------------------------------------------------------------------- */
@@ -522,7 +774,6 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   color: var(--color--foreground--50);
 }
 
-
 /* Section intro
 ----------------------------------------------------------------------------- */
 
@@ -535,13 +786,13 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   display: flex;
   flex-wrap: nowrap;
   overflow-x: scroll;
-  -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
-  scrollbar-width: none;  /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
   -webkit-user-select: none;
   user-select: none;
 }
 .section.intro .options::-webkit-scrollbar {
-  display: none;  /* Hide scrollbar for Chrome, Safari and Opera */
+  display: none; /* Hide scrollbar for Chrome, Safari and Opera */
 }
 .section.intro .options:hover {
   cursor: pointer;
@@ -577,18 +828,25 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 }
 .section.intro .gradient-mask.left {
   left: 0;
-  background: linear-gradient(to right, var(--color--background--100) 2%, var(--color--background--0) 100%);
+  background: linear-gradient(
+    to right,
+    var(--color--background--100) 2%,
+    var(--color--background--0) 100%
+  );
 }
 .section.intro .gradient-mask.right {
   right: 0;
-  background: linear-gradient(to left, var(--color--background--100) 2%, var(--color--background--0) 100%);
+  background: linear-gradient(
+    to left,
+    var(--color--background--100) 2%,
+    var(--color--background--0) 100%
+  );
 }
 .section.intro .gradient-mask.left.is--visible,
 .section.intro .gradient-mask.right.is--visible {
   opacity: 1;
 }
 .section.intro .texts {
-
 }
 .section.intro .text {
   min-height: calc(1em * 0.975 * 7);
@@ -605,7 +863,6 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   display: inline-block;
   line-height: 0.88;
 }
-
 
 /* Section work
 ----------------------------------------------------------------------------- */
@@ -658,7 +915,6 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   height: 100%;
 }
 
-
 /* Section values
 ----------------------------------------------------------------------------- */
 
@@ -675,7 +931,6 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 .section.values .description {
   grid-column: 2 / -1;
 }
-
 
 /* Section background
 ----------------------------------------------------------------------------- */
@@ -734,7 +989,6 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   color: var(--color--foreground--50);
 }
 
-
 /* Section references
 ----------------------------------------------------------------------------- */
 
@@ -744,7 +998,7 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   grid-template-columns: var(--grid--app-columns-2);
   gap: var(--grid--app-gutter);
 }
-.section.references .item:nth-child(n+3) {
+.section.references .item:nth-child(n + 3) {
   padding-top: 40px;
 }
 .section.references .quote {
@@ -763,7 +1017,6 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   padding-top: 160px;
   grid-column: 1 / -1;
 }
-
 
 /* Section about
 ----------------------------------------------------------------------------- */
@@ -792,7 +1045,6 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 .section.about p span.copyright {
   font-size: 13px;
 }
-
 
 /* Section contact
 ----------------------------------------------------------------------------- */
@@ -866,16 +1118,15 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 @keyframes pulse {
   0% {
     background-color: var(--color--foreground--25);
-    transform: scale(1, 1)
+    transform: scale(1, 1);
   }
   66.666% {
     background-color: var(--color--foreground--0);
-    transform: scale(4, 4)
+    transform: scale(4, 4);
   }
   100% {
   }
 }
-
 
 /* General
 ----------------------------------------------------------------------------- */
@@ -883,7 +1134,6 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 ::selection {
   background-color: var(--color--foreground--10);
 }
-
 
 /* Page not found
 ----------------------------------------------------------------------------- */

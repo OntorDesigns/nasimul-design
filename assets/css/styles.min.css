@@ -407,20 +407,20 @@ a:active {
     cursor: pointer;
     -webkit-transition: background-color .25s, color .25s;
     -o-transition: background-color .25s, color .25s;
-    transition: background-color .25s, color .25s
+    transition: background-color .25s, color .25s;
 }
 
 .button:hover,
 .button:active {
     background-color: #1A1917;
-    color: #FAFAFA
+    color: #FAFAFA;
 }
 
 .button--icon-only {
     position: relative;
     padding: 0;
     width: 3rem;
-    height: 3rem
+    height: 3rem;
 }
 
 .button--icon-only .button__icon {
@@ -429,8 +429,19 @@ a:active {
     left: 50%;
     -webkit-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%)
+    transform: translateX(-50%) translateY(-50%);
 }
+
+@media (max-width: 768px) {
+    .button {
+        display: block; /* Stack the buttons vertically on mobile */
+        margin-top: 2rem; /* Extra space on top in mobile */
+        margin-bottom: 2rem; /* Extra space on bottom in mobile */
+        padding: 0.5rem 1rem; /* Smaller padding for mobile */
+        font-size: 0.875rem; /* Smaller font size for mobile */
+    }
+}
+
 
 h1,
 h2,
@@ -1170,6 +1181,23 @@ h6,
 
 /* Section intro
 ----------------------------------------------------------------------------- */
+
+.section.intro {
+    margin: 1rem; /* Base margin */
+}
+
+@media (max-width: 768px) {
+    .button {
+        display: block;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .section.intro {
+        margin-top: 2rem; /* Extra space on top in mobile */
+        margin-bottom: 2rem; /* Extra space on bottom in mobile */
+    }
+}
 
 .section.intro > .content {
   padding: calc(var(--grid--app-xheight) - 11px) 0 80px 0;
