@@ -251,3 +251,31 @@
     --grid--app-xheight: 20px;
   }
 }
+
+
+_______ My Custom Codes _____
+
+ /* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .portfolio-container {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .portfolio-card {
+        width: 90%; /* Make cards full-width on small screens */
+        margin-bottom: 20px; /* Add spacing between stacked cards */
+    }
+}
+
+/* Responsive Design for Medium Screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .portfolio-container {
+        justify-content: space-around; /* Spread out cards on medium screens */
+    }
+
+    .portfolio-card {
+        width: 45%; /* Adjust width for side-by-side display on medium screens */
+    }
+}
